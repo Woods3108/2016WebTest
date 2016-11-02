@@ -13,12 +13,13 @@ th,td{margin: 0;padding: 0;list-style: none;font:12px/1.5
 	/*overflow:hidden;是当元素指定了宽或高后，内容超出的部分不予显示。
 	（元素还在，只是不显示出来而已）？？？*/
 	overflow: hidden;
+	margin-top: 20px;
 }
 .demo01 .left{
 	width: 100px;float: left;
 }
 .demo01 .left img{
-	margin-left: 20px;
+	margin-left: 20px;border: 1px solid #ccc;padding: 5px; 
 }
 .demo01 .right{
 	width: 458px;float: right;background: #9cf;border: 1px solid #ccc;padding: 20px;
@@ -32,14 +33,10 @@ th,td{margin: 0;padding: 0;list-style: none;font:12px/1.5
 
 /*demo02中级*/
 .demo02{
-	width: 600px;
-	position: relative;
-	overflow: hidden;
-	margin-top: 20px;
+	width: 600px;position: relative;overflow: hidden;margin-top: 20px;
 }
 .demo02 img{
-	float: left;
-	margin-left: 20px;
+	float: left;margin-left: 20px;border: 1px solid #ccc;padding: 5px;
 }
 .demo02 .right{
 	width: 458px;float: right;background: #9cf;border: 1px solid #ccc;padding: 20px;
@@ -56,7 +53,7 @@ th,td{margin: 0;padding: 0;list-style: none;font:12px/1.5
 	width: 458px;background: #9cf;border: 1px solid #ccc;padding: 20px;margin-left: 100px;position: relative;margin-top: 20px;
 }
 .demo03 img{
-	float: left;margin:-20px 0 0 -100px; 
+	float: left;margin:-20px 0 0 -100px; border: 1px solid #ccc;padding: 5px; 
 }
 .deomo03 p{
 	font-size: 12px;line-height: 25px;
